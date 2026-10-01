@@ -1,0 +1,44 @@
+body{
+height: 100vh;
+background: linear-gradient(cyan,darkblue);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.central{
+background: lightblue;
+width: 50%;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 2px 1px 5px black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.central input{
+width: 50%;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.central p{
+margin: 5px;
+}
+
+.central button{
+background: black;
+color: white;
+padding: 10px;
+font-size: 15px;
+border: none;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.resultado{
+font-size: 18px;
+font-weight: bold;
+}
